@@ -16,10 +16,11 @@ private:
 public:
     Graphe(/* args */);
     ~Graphe();
+    void menu ();
     // acces aux attributs
     // affichage
     // chargement de la topographie
-    void chargementTopo (Graphe& graphe, std::string nomFichier);
+    void chargementTopo (std::string nomFichier);
     // chargement de la ponderation
 };
 

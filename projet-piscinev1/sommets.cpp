@@ -10,7 +10,7 @@ Sommets::~Sommets()
 {
 }
 
-void Sommets::parametrage (int nom,float x,float y)
+void Sommets::parametrage (int nom, float x, float y)
 {
     m_nom = nom;
     m_x = x;
