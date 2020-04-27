@@ -35,7 +35,13 @@
 		<Linker>
 			<Add library="alleg44.dll" />
 		</Linker>
+		<Unit filename="arc.cpp" />
+		<Unit filename="arc.h" />
+		<Unit filename="graphe.cpp" />
+		<Unit filename="graphe.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="sommets.cpp" />
+		<Unit filename="sommets.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

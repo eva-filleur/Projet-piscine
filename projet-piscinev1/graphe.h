@@ -9,14 +9,14 @@ class Graphe
 private:
     std::vector<Sommets*> m_sommets;
     std::vector<Arc*> m_arc;
-    
+
 public:
     Graphe(/* args */);
     ~Graphe();
     // acces aux attributs
     // affichage
     // chargement de la topographie
-    // chargement de la ponderation
+    void chargementPond(Graphe &mon_graphe)// chargement de la ponderation
 };
 
 

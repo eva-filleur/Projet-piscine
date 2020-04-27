@@ -8,12 +8,14 @@ class Arc
 private:
     Sommets* m_sommet1;
     Sommets* m_sommet2;
-    int m_poids;
+    float m_poids;
+    int m_indice;
 public:
     Arc(/* args */);
     ~Arc();
     // acces aux attributs
     // affichage
+    void setPoids(float poids);
 };
 
 
