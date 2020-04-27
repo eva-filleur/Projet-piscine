@@ -35,12 +35,7 @@ void Graphe::chargementPond(Graphe &mon_graphe)// chargement de la ponderation
     float poids;
     for(int i=0;i<taille;++i){//pour tous les arcs
         flux >> indice >> poids;
-
-        if(mon_graphe.getArc()[i].getIndice()==indice)//si l'indice est égale à l'indice du graphe déjà enregistré
-        {
-            mon_graphe.getArc()[i].setPoids(poids);//on enregistre le poids
-        }
-
+        m_arc[indice]->setPoids(poids);//on met le poids dans l'arc d'indice prédéfini
     }
 
 }
