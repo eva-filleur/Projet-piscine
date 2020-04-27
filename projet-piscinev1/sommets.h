@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-#include "arc.h"
+class Arc;
 
 class Sommets
 {
