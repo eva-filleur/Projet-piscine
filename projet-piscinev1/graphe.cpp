@@ -24,21 +24,21 @@ void Graphe::afficherGraphe(Graphe &mon_graphe)
 
 void Graphe::chargementPond(Graphe &mon_graphe)// chargement de la ponderation
 {
-    std::ifstream flux{"graphe_etoile1_pond.txt"};
+    std::ifstream flux{"graphe_etoile1_pond.txt"};//fichier des poids des arcs
     if(!flux)
-        std::cout << "Problème d'ouverture du fichier" << std::endl;
+        std::cout << "Problème d'ouverture du fichier" << std::endl;//affichage si pb
 
     int taille;
-    flux>>taille;
+    flux>>taille;//enregistre la taille
 
     int indice;
     float poids;
-    for(int i=0;i<taille;++i){
+    for(int i=0;i<taille;++i){//pour tous les arcs
         flux >> indice >> poids;
 
-        if(mon_graphe.getArc()[i].getIndice()==indice)
+        if(mon_graphe.getArc()[i].getIndice()==indice)//si l'indice est égale à l'indice du graphe déjà enregistré
         {
-            mon_graphe.getArc()[i].setPoids(poids);
+            mon_graphe.getArc()[i].setPoids(poids);//on enregistre le poids
         }
 
     }
