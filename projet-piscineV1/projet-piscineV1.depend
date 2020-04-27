@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1587976034 source:c:\users\evafi\onedrive\documents\github\projet-piscine\projet-piscinev1\arc.cpp
+	"arc.h"
+
+1587974448 c:\users\evafi\onedrive\documents\github\projet-piscine\projet-piscinev1\arc.h
+	"sommets.h"
+
+1587977060 c:\users\evafi\onedrive\documents\github\projet-piscine\projet-piscinev1\sommets.h
+	<iostream>
+	<vector>
+
+1587977060 source:c:\users\evafi\onedrive\documents\github\projet-piscine\projet-piscinev1\sommets.cpp
+	"arc.h"
+	"sommets.h"
+
+1587972827 source:c:\users\evafi\onedrive\documents\github\projet-piscine\projet-piscinev1\main.cpp
+	"graphe.h"
+
+1587977367 c:\users\evafi\onedrive\documents\github\projet-piscine\projet-piscinev1\graphe.h
+	<fstream>
+	"arc.h"
+	"sommets.h"
+

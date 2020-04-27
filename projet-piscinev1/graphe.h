@@ -1,6 +1,8 @@
 #ifndef GRAPHE_H_INCLUDED
 #define GRAPHE_H_INCLUDED
 
+#include <fstream>
+
 #include "arc.h"
 #include "sommets.h"
 
@@ -14,9 +16,9 @@ public:
     Graphe(/* args */);
     ~Graphe();
     // acces aux attributs
-    // affichage
+    void afficherGraphe(Graphe &mon_graphe);// affichage
     // chargement de la topographie
-    void chargementPond(Graphe &mon_graphe)// chargement de la ponderation
+    void chargementPond(Graphe &mon_graphe);// chargement de la ponderation
 };
 
 

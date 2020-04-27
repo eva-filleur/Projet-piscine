@@ -17,7 +17,7 @@ public:
     Sommets(/* args */);
     ~Sommets();
     // acces aux attributs
-    // affichage
+    void afficherSommet();// affichage
 };
 
 

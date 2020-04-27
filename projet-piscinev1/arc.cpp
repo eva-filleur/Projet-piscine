@@ -8,7 +8,7 @@ Arc::~Arc()
 {
 }
 
-Arc::void setPoids(float poids)
+void Arc::setPoids(float poids)
 {
     m_poids = poids;
 }
