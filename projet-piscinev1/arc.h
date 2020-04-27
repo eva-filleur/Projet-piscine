@@ -13,6 +13,7 @@ public:
     Arc(/* args */);
     ~Arc();
     // acces aux attributs
+    void parametrage (Sommets* sommet1, Sommets* sommet2);
     // affichage
 };
 
